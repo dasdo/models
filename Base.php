@@ -51,7 +51,7 @@ class Base extends \Phalcon\Mvc\Model
 	 *	@return void
 	 */
 	public function beforeCreate () 
-    {
+	{
 		$this->created_at = date("Y-m-d h:m:i");
 	}
 	
